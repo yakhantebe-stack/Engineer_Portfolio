@@ -56,3 +56,8 @@ app.mount(
     StaticFiles(directory=BASE / "explore-sa", html=True),
     name="explore-sa",
 )
+app.mount(
+    "/game",
+    StaticFiles(directory=BASE / "game", html=True),
+    name="game",
+)
