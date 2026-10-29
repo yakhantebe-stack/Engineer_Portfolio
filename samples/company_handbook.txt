@@ -1,0 +1,17 @@
+NORTHSTAR LABS — SAMPLE OPERATIONS HANDBOOK
+Fictional company document for portfolio demonstration.
+
+SUPPORT TICKET TRIAGE
+The support team assigns high priority to billing disputes, account access problems, and security incidents. Routine feature questions receive medium priority. Agents must not ask customers for passwords or full payment card numbers.
+
+BILLING DISPUTE ESCALATION
+For duplicate charges or disputed invoices, the support agent confirms the billing date and invoice reference, acknowledges the problem, and escalates the ticket to a human billing specialist. Only the billing specialist may approve a refund. Standard escalation target is within one business day.
+
+DATA EXPORTS
+Customers may request a CSV export through Settings > Data > Export. Larger export requests should be sent to the technical support queue. Export links expire after 24 hours.
+
+TEAM COMMUNICATION
+Support specialists record internal notes for every escalation. Engineering reviews recurring issues during the weekly quality meeting each Thursday. Urgent security reports are shared immediately with the designated incident lead.
+
+CUSTOMER COMMUNICATION
+Use clear and empathetic language. Do not make commitments beyond published policy. AI suggestions must always be reviewed by an authorized person before being sent.
