@@ -1,4 +1,3 @@
-"""One website: homepage plus three mounted FastAPI applications."""
 import os
 import asyncio
 from contextlib import asynccontextmanager, suppress
@@ -51,3 +50,9 @@ app.mount('/screenshots', StaticFiles(directory=BASE / 'screenshots'), name='scr
 app.mount('/support', support.app)
 app.mount('/automations', automations.app)
 app.mount('/documents', documents.app)
+
+app.mount(
+    "/explore-sa",
+    StaticFiles(directory=BASE / "explore-sa", html=True),
+    name="explore-sa",
+)

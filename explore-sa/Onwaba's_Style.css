@@ -1,0 +1,410 @@
+/* GENERAL STYLING */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8ed;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* WEBSITE HEADER */
+
+.site-header {
+    background-color: #174c3c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 6px solid #f06432;
+}
+
+.site-title {
+    font-size: 32px;
+}
+
+.site-tagline {
+    color: #ffda79;
+    font-size: 16px;
+}
+
+/* NAVIGATION BAR */
+
+.main-navigation {
+    background-color: #252a30;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 5px;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    background-color: #35c6b0;
+    color: #222222;
+}
+
+.nav-link.active {
+    background-color: #ffc857;
+    color: #222222;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #eadfce;
+}
+
+.section-title {
+    color: #174c3c;
+    border-bottom: 3px solid #f06432;
+    padding-bottom: 10px;
+}
+
+.section-description {
+    color: #555555;
+}
+
+/* HOME PAGE */
+
+.welcome-section {
+    background-color: #174c3c;
+    color: white;
+    border: none;
+}
+
+.welcome-section .section-title {
+    color: #ffc857;
+    border-bottom-color: #f06432;
+}
+
+.welcome-section .welcome-text {
+    font-size: 18px;
+}
+
+.welcome-section .welcome-message {
+    color: #252a30;
+    background-color: #ffc857;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.explore-section {
+    border-left: 5px solid #35c6b0;
+}
+
+.featured-destination {
+    background-color: #fff0db;
+}
+
+.destination-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* BUTTONS */
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-primary {
+    background-color: #ffc857;
+    color: #222222;
+}
+
+.button-primary:hover {
+    background-color: #f06432;
+    color: white;
+}
+
+.button-secondary {
+    background-color: #f06432;
+    color: white;
+}
+
+.button-secondary:hover {
+    background-color: #174c3c;
+}
+
+/* ABOUT PAGE */
+
+.about-intro-section {
+    border-left: 5px solid #f06432;
+}
+
+.mission-section {
+    background-color: #e5f5ed;
+    border-left: 5px solid #174c3c;
+}
+
+.services-section {
+    background-color: #fff0db;
+    border-left: 5px solid #ffc857;
+}
+
+.services-list {
+    padding-left: 25px;
+}
+
+.service-item {
+    margin: 12px 0;
+}
+
+/* EVENTS PAGE */
+
+.upcoming-events-section {
+    border-top: 5px solid #f06432;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-caption {
+    padding: 10px;
+    font-weight: bold;
+    color: #174c3c;
+}
+
+.events-table th {
+    background-color: #174c3c;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.events-table td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+}
+
+.events-table tbody tr:nth-child(even) {
+    background-color: #fff0db;
+}
+
+.events-table tbody tr:hover {
+    background-color: #d9f5ed;
+}
+
+.event-name {
+    font-weight: bold;
+}
+
+.event-category {
+    color: #d94b20;
+}
+
+.popular-activities-section {
+    border-left: 5px solid #35c6b0;
+}
+
+.activities-list li {
+    margin-bottom: 10px;
+}
+
+.discover-more-section {
+    background-color: #e5f5ed;
+}
+
+.content-link {
+    color: #d94b20;
+    font-weight: bold;
+}
+
+/* GALLERY PAGE */
+
+.destinations-section {
+    border-top: 5px solid #35c6b0;
+}
+
+.gallery-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+    background-color: #fff0db;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-caption {
+    padding: 8px;
+    color: #174c3c;
+    font-weight: bold;
+}
+
+.featured-photo-section {
+    background-color: #fff0db;
+    text-align: center;
+}
+
+.gallery-caption {
+    font-size: 17px;
+}
+
+.gallery-controls {
+    margin-top: 15px;
+}
+
+.gallery-button {
+    background-color: #174c3c;
+    color: white;
+    padding: 12px 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gallery-button:hover {
+    background-color: #f06432;
+}
+
+.tourism-link {
+    display: inline-block;
+    background-color: #ffc857;
+    color: #222222;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* CONTACT PAGE */
+
+.contact-section {
+    border-top: 5px solid #f06432;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #174c3c;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    outline: 2px solid #35c6b0;
+}
+
+.form-textarea {
+    resize: vertical;
+}
+
+.form-message {
+    color: #174c3c;
+    font-weight: bold;
+}
+
+/* WEBSITE FOOTER */
+
+.site-footer {
+    background-color: #252a30;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #f06432;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+/* MOBILE PHONE STYLING */
+
+@media (max-width: 600px) {
+
+    .main-content {
+        width: 95%;
+    }
+
+    .content-section {
+        padding: 15px;
+    }
+
+    .gallery-item {
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .gallery-image {
+        height: auto;
+    }
+
+    .events-table {
+        font-size: 12px;
+    }
+
+    .events-table th,
+    .events-table td {
+        padding: 6px;
+    }
+
+    .nav-item {
+        margin: 2px;
+    }
+
+    .nav-link {
+        padding: 8px;
+    }
+}
